@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+    - name: ansible-pull copy file
+      copy:
+        src: ansible-pull/index.html
+        dest: /tmp/
+        owner: ansible
+        group: ansible
