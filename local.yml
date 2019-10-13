@@ -4,6 +4,6 @@
     - name: ansible-pull copy file
       copy:
         src: ansible-pull/index.html
-        dest: /tmp/
+        dest: /var/www/html/
         owner: ansible
         group: ansible
