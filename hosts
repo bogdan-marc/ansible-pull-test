@@ -1,2 +1,2 @@
 [local]
-127.0.0.1
+hivemaster ansible_host=10.10.81.11
