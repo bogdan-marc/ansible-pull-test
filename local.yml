@@ -7,7 +7,7 @@
         dest: /var/www/html/
         owner: ansible
         group: ansible
-	- name:
-	  service:
-	    name: apache2
-		state: restarted
+     - name:
+       service:
+         name: apache2
+         state: restarted
