@@ -1,5 +1,6 @@
 ---
 - hosts: local
+  become: yes
   tasks:
     - name: ansible-pull copy file
       copy:
