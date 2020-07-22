@@ -1,5 +1,1 @@
-[local]
-hivemaster ansible_host=10.10.17.244
-[remote]
-ubuntu ansible_host=10.10.17.245
-centos ansible_host=10.10.17.246
+
